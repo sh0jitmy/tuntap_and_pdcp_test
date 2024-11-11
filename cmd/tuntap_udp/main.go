@@ -14,7 +14,7 @@ import (
 
 const (
 	udpAddress = "127.0.0.1:12345" // 送信先のUDPアドレス
-	mtu        = 1500              // EthernetフレームのMTU
+	mtu        = 1514              // EthernetフレームのMTU
 )
 
 // TAPデバイスをセットアップ
